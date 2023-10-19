@@ -9,14 +9,13 @@ Project Structure:
 
 Selenium_Pytest_Framework: The core directory for the Selenium Webdriver and Pytest framework project.
   - TestCases: This folder contains functional test scripts for an e-commerce website.
-      - SearchProducts.py: This file contains functional test cases related to the e-commerce website. Test scenarios are documented within comments, and the script makes use of fixtures and a base class
-        streamlined test execution.
-      - VerifyOTP.py: This test file automates the process of user registration on the 'Hubspots' website. It integrates with a Gmail server to extract a One-Time Password (OTP) and activate the account on 
-         Hubspot. Like other scripts, it uses fixtures and inherits from a base class to ensure efficient test execution.
   - PageObjects: All page object classes that facilitate the framework are stored in this folder.
   - Utility: This folder contains the utility base classes for the respective websites. These classes are being inherited in the actual test cases.
   - TestData: This contains the data that is fed to the test cases via fixtures.
 
+TestCases:
+- SearchProducts.py: This file contains functional test cases related to the e-commerce website. Test scenarios are documented within comments, and the script makes use of fixtures and a base class streamlined test execution.
+- VerifyOTP.py: This test file automates the process of user registration on the 'Hubspots' website. It integrates with a Gmail server to extract a One-Time Password (OTP) and activate the account on Hubspot. Like other scripts, it uses fixtures and inherits from a base class to ensure efficient test execution.
 
 Project 2: Cypress Cucumber Framework (JavaScript)
 
