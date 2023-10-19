@@ -23,8 +23,8 @@ Description:
 In this project, we utilize the Cypress Cucumber framework to automate testing for various web applications. Similar to the Selenium project, these test scripts are built with the Page Object Design pattern for efficient maintenance and execution.
 
 Project Structure:
-
 Cypress_Cucumber_TestProject: The directory for the Cypress Cucumber framework project.
+
 - fixtures/example: This contains the test data that is fed to the test cases via fixtures.  
 - Integration/BDD: This folder contains subdirectories, each dedicated to testing scripts for different web applications, all organized using fixtures and the Page Object Design pattern:
       - RegistrationForm: Functional test cases for a registration page on an e-commerce website.
