@@ -6,8 +6,8 @@ Description:
 In this project, we focus on automated testing of an e-commerce website using Selenium Webdriver and the Pytest framework. The tests are organized using the Page Object Design pattern for better code organization and maintenance.
 
 Project Structure:
-
 Selenium_Pytest_Framework: The core directory for the Selenium Webdriver and Pytest framework project.
+
   - TestCases: This folder contains functional test scripts for an e-commerce website.
   - PageObjects: All page object classes that facilitate the framework are stored in this folder.
   - Utility: This folder contains the utility base classes for the respective websites. These classes are being inherited in the actual test cases.
