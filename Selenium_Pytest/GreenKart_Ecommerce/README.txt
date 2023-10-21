@@ -6,10 +6,10 @@ In this project, we focus on automated testing of an e-commerce website using Se
 Project Structure:
 Selenium_Pytest_Framework: The core directory for the Selenium Webdriver and Pytest framework project.
 
-  - TestCases: This folder contains functional test scripts for an e-commerce website.
+  - TestCases: This folder contains functional test script for the e-commerce website.
   - PageObjects: All page object classes that facilitate the framework are stored in this folder.
-  - Utility: This folder contains the utility base classes for the respective websites. These classes are being inherited in the actual test cases.
-  - TestData: This contains the data that is fed to the test cases via fixtures.
+  - Utilities: This folder contains the utility base class for the reusable methods and fixtures' reference. These classes are being inherited in the actual test cases.
+  - TestData: This contains the data that is fed to the test case via fixtures.
 
 TestCases:
 - SearchProducts.py: This file contains functional test cases related to the e-commerce website. Test scenarios are documented within comments, and the script makes use of fixtures and a base class to streamline test execution.
