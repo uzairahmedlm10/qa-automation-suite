@@ -5,7 +5,7 @@ Project 1: Selenium Webdriver with Pytest (Python)
 Description:
 In this project, we focus on automated testing of an e-commerce website using Selenium Webdriver and the Pytest framework. The tests are organized using the Page Object Design pattern for better code organization and maintenance.
 
-Project Structure:
+Project Structure:ggg
 Selenium_Pytest_Framework: The core directory for the Selenium Webdriver and Pytest framework project.
 
   - TestCases: This folder contains functional test scripts for an e-commerce website.
